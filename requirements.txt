@@ -1,0 +1,33 @@
+# Flask Framework
+Flask==2.1.2
+
+# Flask Packages
+Flask-Admin==1.6.0
+Flask-Babel==2.0.0
+Flask-Bcrypt==1.0.1
+Flask-Bootstrap==3.3.7.1
+Flask-Compress==1.12
+Flask-HTTPAuth==4.6.0
+Flask-Login==0.6.1
+Flask-RESTful==0.3.9
+Flask-SQLAlchemy==2.5.1
+Flask-SSLify==0.1.5
+Flask-WTF==1.0.1
+
+# Keras
+keras==2.9.0
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+
+numpy==1.21.6
+scipy==1.7.3
+
+gunicorn==20.1.0
+protobuf==3.20.1
+
+# Tensorflow
+tensorflow==2.8
+tensorflow-estimator==2.8
+tensorflow-io-gcs-filesystem==0.23.1
+
+Werkzeug==2.1.2
