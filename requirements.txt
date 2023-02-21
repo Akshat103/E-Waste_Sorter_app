@@ -15,7 +15,7 @@ Flask-SSLify==0.1.5
 Flask-WTF==1.0.1
 
 # Keras
-keras==2.9.0
+keras==2.6.0
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 
@@ -26,7 +26,7 @@ gunicorn==20.1.0
 protobuf==3.20.1
 
 # Tensorflow
-tensorflow==2.8
+tensorflow==2.6.0
 tensorflow-estimator==2.8
 tensorflow-io-gcs-filesystem==0.23.1
 
