@@ -11,6 +11,10 @@ const uploadedFileIconText = document.querySelector('.uploaded-file__icon-text')
 const uploadedFileCounter = document.querySelector('.uploaded-file__counter');
 const toolTipData = document.querySelector('.upload-area__tooltip-data');
 
+window.onload = function(){
+  document.getElementById("autoplay").play()
+}
+
 const imagesTypes = [
   "jpeg",
   "jpg",

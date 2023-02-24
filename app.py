@@ -29,6 +29,9 @@ def main():
 def about_page():
 	return render_template("about.html")
 
+@app.route("/predict", methods=['GET', 'POST'])
+def predict_page():
+	return render_template("predict.html")
 
 @app.route("/submit", methods = ['GET', 'POST'])
 def get_output():
@@ -40,7 +43,7 @@ def get_output():
 
 		p = predict_label(img_path)
 
-	return render_template("index.html", prediction = p, img_path = img_path)
+	return render_template("predict.html", prediction = p, img_path = img_path)
 
 
 if __name__ =='__main__':
